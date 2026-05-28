@@ -2,9 +2,9 @@ name: detect
 
 on:
   push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main ]
+    branches: [ develop1 ]
+#  pull_request:
+#    branches: [ main ]
 
 jobs:
   build:
